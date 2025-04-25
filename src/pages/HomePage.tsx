@@ -1,4 +1,3 @@
-
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -118,7 +117,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <CityCard 
               name="Delhi" 
-              image="https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+              image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max" 
               stats={[
                 { label: "Total Crime Rate", value: "143.8" },
                 { label: "YoY Change", value: "-4.2%" }
@@ -127,7 +126,7 @@ const HomePage = () => {
             
             <CityCard 
               name="Mumbai" 
-              image="https://images.unsplash.com/photo-1566552881863-2ec713cce4ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+              image="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max"
               stats={[
                 { label: "Total Crime Rate", value: "129.5" },
                 { label: "YoY Change", value: "-2.1%" }
@@ -136,7 +135,7 @@ const HomePage = () => {
             
             <CityCard 
               name="Bengaluru" 
-              image="https://images.unsplash.com/photo-1580751302544-62abce6298b8?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+              image="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max"
               stats={[
                 { label: "Total Crime Rate", value: "118.2" },
                 { label: "YoY Change", value: "-0.8%" }
@@ -145,7 +144,7 @@ const HomePage = () => {
             
             <CityCard 
               name="Hyderabad" 
-              image="https://images.unsplash.com/photo-1621496503717-028b714c3c54?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+              image="https://images.unsplash.com/photo-1483058712412-4245e9b90334?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max"
               stats={[
                 { label: "Total Crime Rate", value: "112.4" },
                 { label: "YoY Change", value: "-1.5%" }
@@ -154,7 +153,7 @@ const HomePage = () => {
             
             <CityCard 
               name="Chennai" 
-              image="https://images.unsplash.com/photo-1582510003544-4d00b7f74220?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+              image="https://images.unsplash.com/photo-1466442929976-97f336a657be?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max"
               stats={[
                 { label: "Total Crime Rate", value: "97.6" },
                 { label: "YoY Change", value: "-3.2%" }
@@ -163,7 +162,7 @@ const HomePage = () => {
             
             <CityCard 
               name="Kolkata" 
-              image="https://images.unsplash.com/photo-1558431382-27e303142255?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+              image="https://images.unsplash.com/photo-1485871981521-5b1fd3985b72?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max"
               stats={[
                 { label: "Total Crime Rate", value: "87.3" },
                 { label: "YoY Change", value: "-5.4%" }
