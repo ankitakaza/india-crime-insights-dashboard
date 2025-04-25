@@ -1,7 +1,10 @@
+
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '../context/AuthContext';
+import { StatCard } from '@/components/home/StatCard';
+import { CityCard } from '@/components/home/CityCard';
 
 const HomePage = () => {
   const { isAuthenticated } = useAuth();
