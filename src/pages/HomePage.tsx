@@ -1,4 +1,3 @@
-
 import { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -18,15 +17,15 @@ const HomePage = () => {
     <div className="flex flex-col min-h-screen">
       {/* Hero section */}
       <section className="bg-gradient-to-b from-crime-blue-800 to-crime-blue-600 text-white pt-20 pb-16">
-        <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-10 md:mb-0 space-y-6 animate-fade-in">
+        <div className="container mx-auto px-4 md:px-6 flex flex-col items-center justify-center text-center">
+          <div className="space-y-6 animate-fade-in max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               India Crime Tracker
             </h1>
-            <p className="text-xl md:text-2xl text-blue-100 max-w-lg">
+            <p className="text-xl md:text-2xl text-blue-100 max-w-lg mx-auto">
               Track and compare crime statistics across major Indian cities
             </p>
-            <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-2">
+            <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4 pt-2 justify-center">
               <Button 
                 size="lg" 
                 className="bg-white text-crime-blue-800 hover:bg-blue-50 transition-all"
@@ -44,17 +43,6 @@ const HomePage = () => {
                   {isAuthenticated ? "View Dashboard" : "Sign up for Free"}
                 </Link>
               </Button>
-            </div>
-          </div>
-          <div className="md:w-1/2 animate-fade-in">
-            <div className="relative">
-              <div className="absolute -top-6 -left-6 w-20 h-20 bg-blue-500 rounded-full opacity-20"></div>
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-blue-400 rounded-full opacity-20"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-                alt="India Crime Statistics" 
-                className="rounded-lg shadow-xl max-w-full h-auto relative z-10"
-              />
             </div>
           </div>
         </div>
@@ -81,7 +69,7 @@ const HomePage = () => {
               description="Data points collected across 50+ cities" 
               icon={
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2m0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 012-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               }
             />
@@ -120,7 +108,7 @@ const HomePage = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <CityCard 
               name="Delhi" 
-              image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-4.0.3&w=1080&fit=max" 
+              image="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=M3w1MjI3NzF8MHwxfGFsbHx8fHx8fHx8fDE3MTQ0NzM2Mzd8&ixlib=rb-1.2.1&w=1080&fit=max" 
               stats={[
                 { label: "Total Crime Rate", value: "143.8" },
                 { label: "YoY Change", value: "-4.2%" }
